@@ -1,0 +1,84 @@
+
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+body{
+    background-color: #18796c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    background-color: rgb(230, 234, 238);
+    padding: 20px 30px 20px;
+    position: relative;
+    width: 80%;
+    justify-content: center;
+    border-radius: 4px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+
+}
+
+h1{
+    margin: 0px 0px 10px 0px;
+    padding: 0 100px;
+    justify-content: center;
+}
+.input-group input{
+    flex-basis: 50%;
+    border: 0;
+    outline: 0;
+    padding: 70px 0;
+    border-bottom: 1px solid #999;
+    background-color: rgb(247, 244, 244);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    text-align: center;
+}
+
+input[type=text],input[type=email],input[type=phone],Select,input[type=checkbox],input[type=number],input[type=date],input[type=textarea]{
+
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  justify-content:center;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 20px 20px;
+  margin: 40px 60;
+  border: none;
+ justify-content: center;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.9;
+}
+
+
+input[type=button] {
+    background-color: #1165db;
+    color: white;
+    padding: 15px 15px;
+    margin: 40px 60;
+    border: none;
+   justify-content: center;
+    cursor: pointer;
+    width: 20%;
+    opacity: 0.9;
+  }
+button:hover {
+  opacity:1;
+}
+
